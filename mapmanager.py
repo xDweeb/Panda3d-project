@@ -3,3 +3,5 @@ class Mapmanager:
         self.model = 'blocky.egg'
         self.texture = 'block.png'
         self.color = (0.2, 0.2, 0.25, 1)
+        self.startNew(self);
+        self.addBlock(0, 10, 0)
