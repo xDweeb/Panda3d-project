@@ -17,4 +17,8 @@ class Mapmanager:
     def createMap(self):
         for x in range(5):
             for y in range(5):
-                self.addBlock((x, y + 10, 0))
+                if (x + y) % 2 == 0:
+                    color = (0.2, 0.8, 0.2, 1)
+                else:
+                    color = (0.2, 0.4, 0.9, 1)
+                self.addBlock((x, y + 10, 0), color)
