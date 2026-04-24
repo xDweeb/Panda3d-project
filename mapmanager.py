@@ -29,3 +29,6 @@ class Mapmanager:
                     z = 0
 
                 self.addBlock((x, y + 10, z), color)
+    def clearMap(self):
+        self.land.removeNode()
+        self.startNew()
