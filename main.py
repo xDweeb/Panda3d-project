@@ -7,8 +7,8 @@ class Game(ShowBase):
 
         self.land = Mapmanager()
 
-        base.camera.setPos(2, -12, 8)
-        base.camera.setHpr(0, -25, 0)
+        base.camera.setPos(4, -10, 10)
+        base.camera.setHpr(0, -35, 0)
         base.camLens.setFov(90)
 
 game = Game()
