@@ -19,6 +19,9 @@ class Mapmanager:
             for y in range(5):
                 if (x + y) % 2 == 0:
                     color = (0.2, 0.8, 0.2, 1)
+                    z = 0
                 else:
                     color = (0.2, 0.4, 0.9, 1)
-                self.addBlock((x, y + 10, 0), color)
+                    z = 1
+
+                self.addBlock((x, y + 10, z), color)
