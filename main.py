@@ -5,5 +5,5 @@ class Game(ShowBase):
         ShowBase.__init__(self)
         self.land = Mapmanager()
         base.camLens.setFov(90)
-base = Game()
-base.run()
+game = Game()
+game.run()
